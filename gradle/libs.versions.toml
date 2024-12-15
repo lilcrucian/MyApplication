@@ -20,3 +20,6 @@ activity-compose = { group = "androidx.activity", name = "activity-compose", ver
 jsoup = { group = "org.jsoup", name = "jsoup", version.ref = "jsoup" }
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "compose" }
+[plugins]
+android-application = { id = "com.android.application", version = "7.0.0" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version = "1.5.21" }
